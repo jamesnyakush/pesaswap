@@ -7,8 +7,8 @@ import (
 )
 
 const (
-	consumerKey = ""
-	appSecret   = ""
+	consumerKey = "uLdedoqenx"
+	appSecret   = "IWheLlsxP3ZuAZ1357z3A1zn8"
 )
 
 func main() {
@@ -20,34 +20,14 @@ func main() {
 		panic(err)
 	}
 
-	/*
-		res, err := svc.UserCreate(
-				"J",
-				"M",
-				"j@gmail.com",
-				"0746445198",
-			)
-	*/
-
-	/*
-		res, err := svc.UpdateUser(
-			"J",
-			"B",
-			"jec@gmail.com",
-			"254770977160",
-			"Utalii street",
-			"Monrovia",
-			"Kenya",
-			"2C55D6F0-B90j2-11EA-B7B0-7DC668kllkml",
-		)
-	*/
-	res, err := svc.C2BPesaSwap(
-		"Hey there",
-		"CustomerPayBillOnline",
-		"254723722363",
-		"5",
-		"2C55D6F0-B90j2-11EA-B7B0-kjknasknkjn",
+	res, err := svc.NewUser(
+		"Norman",
+		"Nuthu",
+		"norman.nuthu@gmail.com",
+		"254746445198",
 	)
+
+	//res, err := svc.QueryAll()
 
 	if err != nil {
 		log.Println(err)
