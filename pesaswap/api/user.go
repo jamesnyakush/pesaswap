@@ -2,7 +2,7 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/nyumbapoa/pesaswap/internal/models"
+	"github.com/nyumbapoa/pesaswap/pesaswap/models"
 )
 
 func (s Service) NewUser(firstname string, lastname string, email string, phone string) (string, error) {

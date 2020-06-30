@@ -2,7 +2,7 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/nyumbapoa/pesaswap/internal/models"
+	"github.com/nyumbapoa/pesaswap/pesaswap/models"
 )
 
 func (s Service) PaymentRequests(paybillDesc string, desc string, ranges string, billingDate string, lastBillingDate string, externalID string, phone string, amount string) (string, error) {
