@@ -2,19 +2,19 @@ package main
 
 import (
 	"fmt"
+	"github.com/nyumbapoa/pesaswap/internal/api"
 	"log"
-	"pesaswap/internal/api"
 )
 
 const (
-	consumerKey = "uLdedoqenx"
-	appSecret   = "IWheLlsxP3ZuAZ1357z3A1zn8"
+	consumerKey = "dMMcTvqhxl"
+	appSecret   = "wjqRX5tTSzFyJbwW33ANzwh9V"
 )
 
 func main() {
 	fmt.Println("Welcome to pesaswap")
 
-	svc, err := api.New(consumerKey, appSecret, api.PRODUCTION)
+	svc, err := api.New(consumerKey, appSecret, api.SANDBOX)
 
 	if err != nil {
 		panic(err)
