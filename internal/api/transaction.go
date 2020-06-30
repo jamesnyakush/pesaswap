@@ -2,10 +2,11 @@ package api
 
 import (
 	"encoding/json"
-	"pesaswap/internal/models"
+	"github.com/nyumbapoa/pesaswap/internal/models"
 )
 
 func (s Service) QueryTransactionExternalId(TransExtId string) (string, error) {
+
 	queryByTransExtId := &models.QueryTransactionExternalId{
 		ConsumerKey:           s.consumerKey,
 		ApiKey:                s.appKey,
