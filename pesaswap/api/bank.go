@@ -2,8 +2,9 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/nyumbapoa/pesaswap/internal/models"
+	"github.com/nyumbapoa/pesaswap/pesaswap/models"
 )
+
 func (s Service) CardPayment(Currency string, Amount string, ExpiryDate string, CardSecurityCode string, CardNumber string, TransactionId string, CustomerId string) (string, error) {
 
 	cardPayment := &models.CardPayment{

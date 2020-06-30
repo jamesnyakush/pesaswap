@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/nyumbapoa/pesaswap/internal/api"
+	"github.com/nyumbapoa/pesaswap/pesaswap/api"
 	"log"
 )
 

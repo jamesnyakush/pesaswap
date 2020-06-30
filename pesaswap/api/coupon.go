@@ -2,7 +2,7 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/nyumbapoa/pesaswap/internal/models"
+	"github.com/nyumbapoa/pesaswap/pesaswap/models"
 )
 
 func (s Service) CouponPayments(identifier string, amount string, customerID string, transID string) (string, error) {
