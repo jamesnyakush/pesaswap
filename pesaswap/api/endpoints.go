@@ -13,7 +13,7 @@ var (
 	PaymentRequest            = "api/payment/request"
 	CouponPayment             = "api/coupon/payment"
 	CouponQueryEndpoint       = "api/coupon/query"
-	CardPayment               = "api/pesaswap/credit-card-payment"
+	CardPayment               = "api/regular/card-payment"
 	AccountBalance            = "api/account-balance-query"
 	FundTransfer              = "api/funds-transfer"
 	SendToMpesa               = "api/send-to-mpesa"

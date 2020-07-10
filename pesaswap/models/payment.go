@@ -11,5 +11,5 @@ type PaymentRequest struct {
 	LastBillingDate    string `json:"last_billing_date"`
 	ExternalId         string `json:"external_id"`
 	PhoneNumber        string `json:"phone_number"`
-	TotalAmount        string `json:"total_amount"`
+	TotalAmount        int    `json:"total_amount"`
 }

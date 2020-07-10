@@ -8,9 +8,10 @@ type CardPayment struct {
 	Amount                string `json:"amount"`
 	ExpiryDate            string `json:"expiry_date"`
 	CardSecurityCode      string `json:"card_security_code"`
-	CardNumber            string `json:"card_number"`
-	TransactionExternalId string `json:"transaction_external_id"`
+	CreditCardNumber      string `json:"credit_card_number"`
 	CustomerExternalId    string `json:"customer_external_id"`
+	TransactionExternalId string `json:"transaction_external_id"`
+	Environment           string `json:"environment"`
 }
 
 // Checking for Account Balance

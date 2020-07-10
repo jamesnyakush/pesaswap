@@ -14,9 +14,10 @@ func (s Service) CardPayment(Currency string, Amount string, ExpiryDate string, 
 		Amount:                Amount,
 		ExpiryDate:            ExpiryDate,
 		CardSecurityCode:      CardSecurityCode,
-		CardNumber:            CardNumber,
-		TransactionExternalId: TransactionId,
+		CreditCardNumber:      CardNumber,
 		CustomerExternalId:    CustomerId,
+		TransactionExternalId: TransactionId,
+		Environment:           "Test",
 	}
 
 	body, err := json.Marshal(cardPayment)
