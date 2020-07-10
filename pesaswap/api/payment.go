@@ -5,7 +5,7 @@ import (
 	"github.com/nyumbapoa/pesaswap/pesaswap/models"
 )
 
-func (s Service) PaymentRequests(paybillDesc string, desc string, ranges string, billingDate string, lastBillingDate string, externalID string, phone string, amount string) (string, error) {
+func (s Service) PaymentRequests(paybillDesc string, desc string, ranges string, billingDate string, lastBillingDate string, externalID string, phone string, amount int) (string, error) {
 
 	paymentRequest := &models.PaymentRequest{
 		ConsumerKey:        s.consumerKey,
