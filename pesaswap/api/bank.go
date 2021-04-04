@@ -2,7 +2,7 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/nyumbapoa/pesaswap/pesaswap/models"
+	"github.com/jamesnyakush/pesaswap/pesaswap/models"
 )
 
 func (s Service) CardPayment(Currency string, Amount string, ExpiryDate string, CardSecurityCode string, CardNumber string, TransactionId string, CustomerId string) (string, error) {

@@ -2,7 +2,7 @@ package api
 
 import (
 	"encoding/json"
-	"github.com/nyumbapoa/pesaswap/pesaswap/models"
+	"github.com/jamesnyakush/pesaswap/pesaswap/models"
 )
 
 var (

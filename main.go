@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/nyumbapoa/pesaswap/pesaswap/api"
+	"github.com/jamesnyakush/pesaswap/pesaswap/api"
 	"log"
 )
 
@@ -19,14 +19,14 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	/*
+
 		res, err := svc.NewUser(
-			"Norman",
-			"Nuthu",
-			"norman.nuthu@gmail.com",
+			"James",
+			"Nyakush",
+			"nyakush@gmail.com",
 			"254746445198",
 		)
-	*/
+
 
 	/*
 	   res, err := svc.CardPayment(
@@ -65,12 +65,12 @@ func main() {
 	   	"AC312E60-BA4B-11EA-A700-4903572028FB",
 	   	)
 	*/
-	res, err := svc.CouponPayments(
+	/*	res, err := svc.CouponPayments(
 		"smN94",
 		"1",
 		"AC312E60-BA4B-11EA-A700-4903572028FB",
 		"AC312E60-BA4B-11EA-A700-4903572028FA",
-	)
+	)*/
 
 	//res, err := svc.QueryAll()
 
